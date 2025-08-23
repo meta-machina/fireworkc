@@ -15,7 +15,8 @@ description: A machine is a thing. Things can not think. ...but some of them can
 machine:
   name: Thingking-Machine
   instructions_file: complete_thingking.txt
-  token: fireworks.txt
+  token: fireworks
+  server: https://localhost:443
   apiUrl: https://api.fireworks.ai/inference/v1/completions
 
 app:
